@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Section_2225d874_a62c_43bd_84f4_b4c44e88faf5 from "../components/site-editor-sections/2225d874-a62c-43bd-84f4-b4c44e88faf5";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+    <div><Section_2225d874_a62c_43bd_84f4_b4c44e88faf5 /></div>
     </div>
   );
 }
