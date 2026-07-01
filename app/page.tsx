@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ButtonBlock from "../components/site-editor-sections/ButtonBlock";
 
 export default function Home() {
   return (
@@ -61,6 +62,7 @@ export default function Home() {
         </div>
       </main>
       <div></div>
+    <ButtonBlock />
     </div>
   );
 }
