@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ButtonBlock from "../components/site-editor-sections/ButtonBlock";
 import SplitImageLeftHero from "../components/site-editor-sections/SplitImageLeftHero";
 
 export default function Home() {
@@ -37,7 +36,6 @@ export default function Home() {
             </a>{" "}
             center.
           </p>
-        <ButtonBlock />
         </div>
         <div
           className="flex flex-col gap-4 text-base font-medium sm:flex-row">
@@ -62,7 +60,6 @@ export default function Home() {
             Documentation
           </a>
         </div>
-      <ButtonBlock />
       </main>
       <div></div>
     <SplitImageLeftHero />
