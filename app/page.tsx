@@ -1,5 +1,7 @@
 import Image from "next/image";
 import ButtonBlock from "../components/site-editor-sections/ButtonBlock";
+import SplitImageLeftHero from "../components/site-editor-sections/SplitImageLeftHero";
+import ThreeTierPricing from "../components/site-editor-sections/ThreeTierPricing";
 
 export default function Home() {
   return (
@@ -64,6 +66,8 @@ export default function Home() {
       <ButtonBlock />
       </main>
       <div></div>
+    <SplitImageLeftHero />
+    <ThreeTierPricing />
     </div>
   );
 }
