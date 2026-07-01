@@ -1,7 +1,5 @@
 import Image from "next/image";
-import SplitImageLeftHero from "../components/site-editor-sections/SplitImageLeftHero";
 import SingleQuote from "../components/site-editor-sections/SingleQuote";
-import ImageBlock from "../components/site-editor-sections/ImageBlock";
 
 export default function Home() {
   return (
@@ -64,11 +62,7 @@ export default function Home() {
         </div>
       </main>
       <div></div>
-    <SplitImageLeftHero />
     <SingleQuote />
-    <SingleQuote />
-    <SingleQuote />
-    <ImageBlock />
     </div>
   );
 }
