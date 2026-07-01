@@ -66,6 +66,7 @@ export default function Home() {
     <SplitImageLeftHero />
     <SingleQuote />
     <SingleQuote />
+    <SingleQuote />
     </div>
   );
 }
