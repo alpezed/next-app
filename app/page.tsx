@@ -1,5 +1,4 @@
 import Image from "next/image";
-import SingleQuote from "../components/site-editor-sections/SingleQuote";
 
 export default function Home() {
   return (
@@ -62,7 +61,6 @@ export default function Home() {
         </div>
       </main>
       <div></div>
-    <SingleQuote />
     </div>
   );
 }
