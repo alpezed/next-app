@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ButtonBlock from "../components/site-editor-sections/ButtonBlock";
-import ImageBlock from "../components/site-editor-sections/ImageBlock";
 
 export default function Home() {
   return (
@@ -62,7 +61,6 @@ export default function Home() {
             Documentation
           </a>
         </div>
-      <ImageBlock />
       <ButtonBlock />
       </main>
       <div></div>
