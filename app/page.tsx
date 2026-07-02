@@ -63,7 +63,7 @@ export default function Home() {
         </div>
       <ImageBlock />
       </main>
-      <div></div>
+    <div></div>
     <CenteredHero />
     </div>
   );

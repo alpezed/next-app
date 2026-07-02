@@ -7,9 +7,6 @@ export default function CenteredHero() {
       <h1 className="mb-4 text-5xl font-extrabold leading-tight">
         Build something people love
       </h1>
-      <p className="mx-auto mb-8 max-w-2xl text-xl text-slate-600">
-        A clear, compelling subheadline that explains the value in one sentence.
-      </p>
       <div className="flex flex-wrap justify-center gap-3">
         <a
           href="#"
