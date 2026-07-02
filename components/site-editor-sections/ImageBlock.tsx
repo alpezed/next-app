@@ -4,7 +4,7 @@ export default function ImageBlock() {
       data-element-id="ImageBlock"
       src="https://placehold.co/600x320"
       alt=""
-      className="mx-auto my-3 block max-w-full rounded-xl"
+      className="mx-auto my-3 max-w-full rounded-xl flex"
     />
   );
 }
