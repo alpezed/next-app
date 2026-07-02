@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ImageBlock from "../components/site-editor-sections/ImageBlock";
 
 export default function Home() {
   return (
@@ -62,8 +61,6 @@ export default function Home() {
         </div>
       </main>
       <div></div>
-      <ImageBlock />
-    <ImageBlock />
     </div>
   );
 }
