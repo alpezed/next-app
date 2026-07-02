@@ -1,6 +1,5 @@
 import Image from "next/image";
 import ImageBlock from "../components/site-editor-sections/ImageBlock";
-import CenteredHero from "../components/site-editor-sections/CenteredHero";
 
 export default function Home() {
   return (
@@ -64,7 +63,6 @@ export default function Home() {
       <ImageBlock />
       </main>
     <div></div>
-    <CenteredHero />
     </div>
   );
 }
